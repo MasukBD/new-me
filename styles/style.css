@@ -1,0 +1,117 @@
+* {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+}
+
+/* common style  */
+.section-style {
+    margin: 100px auto;
+    width: 80%;
+}
+
+/* Header styles  */
+
+nav {
+    padding: 30px 0;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav h2 {
+    font-size: 30px;
+}
+
+#me {
+    color: #00ff59;
+}
+
+.header {
+    background-image: url('../images/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* banner style  */
+.banner {
+    height: 420px;
+    width: 400px;
+    text-align: end;
+    margin-left: 800px;
+    margin-top: 100px;
+}
+
+.banner-title {
+    font-size: 50px;
+}
+
+.banner-description {
+    color: white;
+    margin: 12px 0;
+}
+
+.primary-btn {
+    color: blue;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 7px 12px;
+    border-radius: 3px;
+    border: none;
+}
+
+/* my failure section styles  */
+
+.my-failure {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.failure-head {
+    font-size: 30px;
+}
+
+.failure-description {
+    margin: 10px 0;
+}
+
+.failure-point {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 5px 0;
+}
+
+.half-width {
+    width: 40%;
+}
+
+/* My plans section styles  */
+.my-plan-head {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.my-plan {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.plan-title {
+    margin: 10px 0;
+}
